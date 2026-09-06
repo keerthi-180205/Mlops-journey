@@ -11,6 +11,9 @@ df = pd.DataFrame(df)
 
 data_dir = 'data'
 
+new_row = {'Name' : "Ram", "Age" : 21, "City" : "Ayodhya"}
+df.loc[len(df.index)] = new_row
+
 os.makedirs(data_dir, exist_ok=True)
 
 # define path
