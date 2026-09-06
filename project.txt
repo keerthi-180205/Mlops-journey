@@ -1,2 +1,6 @@
 create git repo and clone it
 create a python file and write code to store the data
+git push
+pip install dvc
+create s3
+dvc remote add -d myremote s3 => telling dvc the path of s3
