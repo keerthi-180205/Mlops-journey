@@ -1,0 +1,2 @@
+create git repo and clone it
+create a python file and write code to store the data
